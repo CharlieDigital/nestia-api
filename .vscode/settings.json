@@ -1,0 +1,8 @@
+{
+// .vscode/settings.json
+"[typescript]": {
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+
+}
