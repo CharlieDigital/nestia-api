@@ -18,7 +18,10 @@ This section documents the key points in this source tree.
 
 ```
 /root
-  └─ /src
+  └─ /.config
+    └─ kysely.config.ts       # Kysely CTL (CLI) configuration file
+  └─ /packages
+    └─ /api                   # Nestia generated SDK package
     └─ /client                # Sample TypeScript client generated using openapi-typescript-codegen tooling
     └─ /nestia-client         # Sample client generated using Nestia's built in SDK generation
     └─ model.ts               # Model file for this app
